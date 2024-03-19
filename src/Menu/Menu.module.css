@@ -1,0 +1,38 @@
+.navMobile {
+    display: none;
+}
+.header{
+    z-index: 9;
+    width: 85%;
+    height: 8vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(131, 181, 81);
+    font-weight: 600;
+}
+
+.header span{
+    background: #5c73e8;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo{
+    font-size: 1.7rem;
+    font-weight: 700;
+}

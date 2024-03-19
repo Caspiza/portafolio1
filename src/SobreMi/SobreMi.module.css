@@ -1,0 +1,83 @@
+.SobreMi{
+    width: 85%;
+    height: 92vh;
+    margin: auto;
+    padding: 10vh 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fill,minmax(25rem, 1fr));
+}
+
+.SobreMi .intro{
+    color: rgb(131, 181, 81);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.SobreMi .intro img{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+}
+
+.SobreMi .intro p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.SobreMi .intro .adornos div{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(131, 181, 81);
+    border-radius: 50%;
+}
+
+.SobreMi .intro .adornos{
+    display: flex;
+    gap: 5px;
+}
+
+.SobreMi .edu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.SobreMi .edu h2{
+    font-size: 2rem;
+    padding-right: 70px;
+}
+
+.SobreMi .edu div{
+    width: 300px;
+    height: auto;
+    border: 2px solid rgb(131, 181, 81);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.2s ease-in-out;
+    padding: 3px;
+}
+
+.SobreMi .edu h3 {
+    font-size: 1.3rem;
+    color:rgb(131, 181, 81);
+    text-align: center;
+    padding-top: 8px;
+}
+
+.SobreMi .edu span{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #5c73e8;
+    padding-bottom: 8px;
+}

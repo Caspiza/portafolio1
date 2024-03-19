@@ -1,0 +1,70 @@
+.Proyectos{
+    width: 85%;
+    height: 92vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 8vh 0;
+}
+
+.Proyectos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.cards .card{
+    width: 300px;
+    height: auto;
+    border: 2px solid rgb(131, 181, 81);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cards .card:hover{
+    transform: translateY(-3px);
+}
+
+.cards .card img {
+    border-radius: 6px 6px 0 0;
+}
+
+.cards .card h3{
+    text-align: center;
+    color: #5c73e8;
+
+}
+
+.cards .card p{
+    padding: 0 10px;
+    font-weight: 600;
+    color: rgb(131, 181, 81);
+}
+
+.cards .card .tecno{
+    padding: 0 10px;
+}
+
+.cards .card .tecno img {
+    filter: invert(44%) sepia(10%) saturate(6484%) hue-rotate(205deg) brightness(97%) contrast(87%);
+}
+
+.cards .card .github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .card .github img{
+    filter: invert(44%) sepia(10%) saturate(6484%) hue-rotate(205deg) brightness(97%) contrast(87%);
+}
