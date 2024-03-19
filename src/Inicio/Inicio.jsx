@@ -15,12 +15,18 @@ const Inicio = () => {
 
         </article>
 
+
         <div className={styles.botones}>
+
+
+        
 
         <h2>Cesar Kevy Castillo Pizarro</h2>
 
         <div>
-          <a href='https://www.canva.com/design/DAF5cjbTn1U/kAkOSc-wlsHCUXOkYzUH-Q/view?utm_content=DAF5cjbTn1U&utm_campaign=designshare&utm_medium=link&utm_source=editor' target="_blank" rel="noopener noreferrer">CV</a>
+          <a href='https://www.canva.com/design/DAF5cjbTn1U/kAkOSc-wlsHCUXOkYzUH-Q/view?utm_content=DAF5cjbTn1U&utm_campaign=designshare&utm_medium=link&utm_source=editor' target="_blank" rel="noopener noreferrer"><button className={styles.button}>
+  CV
+</button></a>
         </div>
 
         </div>

@@ -9,9 +9,35 @@ const Menu = () => {
 
     <nav className={styles.nav}>
 
-      <Link to='/Portafolio/'><span>I</span>nicio</Link>
-      <Link to='/Portafolio/proyectos'><span>P</span>royectos</Link>
-      <Link to='/Portafolio/sobremi'><span>S</span>obreMi</Link>
+      <Link to='/Portafolio/'><div className={styles.inicio}>
+      <div className={styles.box}>I</div>
+      <div className={styles.box}>N</div>
+      <div className={styles.box}>I</div>
+      <div className={styles.box}>C</div>
+      <div className={styles.box}>I</div>
+      <div className={styles.box}>O</div>
+      </div></Link>
+      <Link to='/Portafolio/proyectos'><div className={styles.proyectos}>
+      <div className={styles.box}>P</div>
+      <div className={styles.box}>R</div>
+      <div className={styles.box}>O</div>
+      <div className={styles.box}>Y</div>
+      <div className={styles.box}>E</div>
+      <div className={styles.box}>C</div>
+      <div className={styles.box}>T</div>
+      <div className={styles.box}>O</div>
+      <div className={styles.box}>S</div>
+      </div></Link>
+      <Link to='/Portafolio/sobremi'><div className={styles.sobreMi}>
+      <div className={styles.box}>S</div>
+      <div className={styles.box}>O</div>
+      <div className={styles.box}>B</div>
+      <div className={styles.box}>R</div>
+      <div className={styles.box}>E</div>
+      <div className={styles.box}> </div>
+      <div className={styles.box}>M</div>
+      <div className={styles.box}>I</div>
+      </div></Link>
 
     </nav>
 

@@ -10,7 +10,7 @@
 }
 
 h1, h2{
-    background: linear-gradient(270deg, rgb(131, 181, 81), #5c73e8);
+    background: linear-gradient(270deg, rgb(131, 181, 81), #132db3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -72,20 +72,32 @@ h1, h2{
 
 }
 
-.botones div a{
-    width: 140px;
-    height: 40px;
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: rgb(131, 181, 81);
-    border: 2px solid #5c73e8;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.button {
+    --bg: rgb(131, 181, 81);
+    --text-color: #132db3;
+    position: relative;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    box-shadow: rgb(43, 56, 31) 0px 7px 2px, #000 0px 8px 5px;
+  }
+  
+  .button:hover {
+    opacity: 1;
+  }
+  
+  .button:active {
+    top: 4px;
+    box-shadow: #132db3 0px 3px 2px,#000 0px 3px 5px;
+  }
 
-.botones div a:hover{
-    color: #5c73e8;    
-    border: 2px solid rgb(131, 181, 81);
-}
+  

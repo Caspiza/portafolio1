@@ -18,7 +18,9 @@ function App() {
         <Route path='/Portafolio/sobremi'element={<SobreMi/>}/>
 
       </Routes>
+
     </div>
+
   )
 }
 
