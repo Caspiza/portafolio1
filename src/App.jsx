@@ -1,7 +1,6 @@
 
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Portada from './Portada/Portada'
 import Inicio from './Inicio/Inicio'
 import Proyectos from './Proyectos/Proyectos'
 import SobreMi from './SobreMi/SobreMi'
@@ -13,8 +12,7 @@ function App() {
     <div>
       <Menu/>
       <Routes>
-        <Route path='/'element={<Portada/>}/> 
-        <Route path='/Portafolio/'element={<Inicio/>}/> 
+        <Route path='/'element={<Inicio/>}/> 
         <Route path='/Portafolio/proyectos'element={<Proyectos/>}/> 
         <Route path='/Portafolio/sobremi'element={<SobreMi/>}/>
 
