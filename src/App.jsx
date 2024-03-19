@@ -12,9 +12,9 @@ function App() {
     <div>
       <Menu/>
       <Routes>
-        <Route path='/Portafolio/'element={<Inicio/>}/> 
-        <Route path='/Portafolio/proyectos'element={<Proyectos/>}/> 
-        <Route path='/Portafolio/sobremi'element={<SobreMi/>}/>
+        <Route path='./'element={<Inicio/>}/> 
+        <Route path='./proyectos'element={<Proyectos/>}/> 
+        <Route path='./sobremi'element={<SobreMi/>}/>
 
       </Routes>
     </div>
