@@ -3,12 +3,20 @@
 }
 .header{
     z-index: 9;
-    width: 85%;
+    width: 100%;
     height: 8vh;
-    margin: auto;
     display: grid;
     grid-template-columns: 15% 70% 15%;
     align-items: center;
+    background-color: black;
+}
+
+.logo{
+  margin-left: 15px;
+  margin-top: 7px;
+  color: #132db3;
+  
+
 }
 
 .nav{
@@ -19,12 +27,6 @@
     gap: 30px;
 }
 
-.nav a {
-    font-size: 1.3rem;
-    text-decoration: none;
-    color: rgb(131, 181, 81);
-    font-weight: 600;
-}
 
 .inicio {
     display: flex;
@@ -80,6 +82,7 @@
   }
 
   .inicio .box:nth-child(6)::before {
+    transform: translateY(-100%);
     content: 'O';
   }
   
@@ -141,6 +144,7 @@
   }
 
   .proyectos .box:nth-child(6)::before {
+    transform: translateY(-100%);
     content: 'C';
   }
 
@@ -149,6 +153,7 @@
   }
 
   .proyectos .box:nth-child(8)::before {
+    transform: translateY(-100%);
     content: 'O';
   }
 
@@ -214,6 +219,7 @@
   }
 
   .box:nth-child(6)::before {
+    transform: translateY(-100%);
     content: ' ';
   }
 
@@ -222,6 +228,7 @@
   }
 
   .box:nth-child(8)::before {
+    transform: translateY(-100%);
     content: 'I';
   }
 
@@ -230,13 +237,7 @@
     transform: translateY(0);
   }
 
-.header span{
-    background: #132db3;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-.logo{
-    font-size: 1.7rem;
-    font-weight: 700;
+.redes{
+  margin-right: 15px;
 }
