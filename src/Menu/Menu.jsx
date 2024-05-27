@@ -3,14 +3,17 @@ import { Link } from 'react-router-dom'
 import Redes from './Redes'
 import react from '../assets/react.svg'
 import javascript from '../assets/javascript.png'
+import nodejs from '../assets/node-js.png'
+
 
 const Menu = () => {
   return (
     <header className={styles.header}>  
-    <nav>
+    <nav className={styles.logo1}>
       <div className={styles.logo}>
       <img  width='40px' height='40px' src= {react} alt="" />
-      <img  width='46px' height='46px' src= {javascript} alt="" />
+      <img  width='40px' height='40px' src= {javascript} alt="" />
+      <img  width='40px' height='40px' src= {nodejs} alt="" />
       </div>
     </nav>
 
