@@ -30,7 +30,7 @@ const Proyectos = () => {
     {
     image:[clima],
     name:'Aplicacion del clima',
-    descrip:'Según nuestra ubicación, podemos ver la temperatura que tenemos actualmente.',
+    descrip:'Según nuestra ubicación, podemos ver la temperatura que tenemos actualmente.', 
     tecno:[react,css,java],
     url:'https://github.com/Caspiza/project2',
     urlImage: 'https://project2-cesarcastillo.netlify.app',
