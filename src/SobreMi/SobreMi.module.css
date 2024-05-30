@@ -51,9 +51,12 @@
     gap: 30px;
 }
 
-.SobreMi .edu h2{
+.education{
     font-size: 2rem;
     padding-right: 70px;
+    background: linear-gradient(270deg, rgb(131, 181, 81), #132db3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .SobreMi .edu div{

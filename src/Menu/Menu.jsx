@@ -48,7 +48,16 @@ const Menu = () => {
       <div className={styles.box}>O</div>
       <div className={styles.box}>S</div>
       </div></Link>
-      
+      <Link to='/Portafolio/contacto'><div className={styles.contacto}>
+      <div className={styles.box}>C</div>
+      <div className={styles.box}>O</div>
+      <div className={styles.box}>N</div>
+      <div className={styles.box}>T</div>
+      <div className={styles.box}>A</div>
+      <div className={styles.box}>C</div>
+      <div className={styles.box}>T</div>
+      <div className={styles.box}>O</div>
+      </div></Link>
 
     </nav>
 

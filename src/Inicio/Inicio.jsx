@@ -11,7 +11,7 @@ const Inicio = () => {
         </article>
 
         <article className={styles.full}>
-        <h2>Full Stack Web Developer</h2>
+        <h2 className={styles.tittle}>Full Stack Web Developer</h2>
         <p>Programador con habilidades tanto en Front-end como en Back-end, enfocado en el desarrollo de aplicaciones web.</p>
         </article>
 

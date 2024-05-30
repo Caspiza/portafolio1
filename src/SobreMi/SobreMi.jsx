@@ -12,15 +12,12 @@ const SobreMi = () => {
         Desde hace más de un año vengo aprendiendo por mi cuenta y llevando cursos de diferentes lenguajes de programación tanto de Backend como Frontend.<br />
           El desarrollar diferentes proyectos en equipo, me a dado una experiencia cercana a un ambiente real de desarrollo por lo que me siento preparado para empezar un nuevo reto en el ambiente laboral como Desarrollador Web Full Stack.</p>
         <div className={styles.adornos}>
-          <div></div>
-          <div></div>
-          <div></div>
         </div>
       </article>
 
       <div className={styles.edu}>
 
-        <h2>Educación</h2>
+        <h2 className={styles.education}>Educación</h2>
 
         <div>
           <h3>Academlo</h3>

@@ -39,7 +39,7 @@ const Proyectos = () => {
 
   return (
     <section className={styles.Proyectos}>
-      <h2>Proyectos</h2>
+      <h2 className={styles.proyect}>Proyectos</h2>
       <div className={styles.cards}>
 
         {

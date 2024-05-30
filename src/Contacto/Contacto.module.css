@@ -1,4 +1,4 @@
-.Proyectos{
+.Contacto{
     width: 85%;
     height: 92vh;
     margin: auto;
@@ -7,68 +7,40 @@
     padding: 8vh 0;
 }
 
-.proyect{
+.contactTitle {
     text-align: center;
-    font-size: 2.5rem;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
     background: linear-gradient(270deg, rgb(131, 181, 81), #132db3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.cards{
+.contact{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
 }
-
-.cards .card{
+.contacts{
     width: 300px;
     height: auto;
-    border: 2px solid rgb(131, 181, 81);
-    border-radius: 7px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     transition: all 0.2s ease-in-out;
 }
 
-.cards .card:hover{
+.contacts:hover{
     transform: translateY(-3px);
 }
 
-.cards .card img {
-    border-radius: 6px 6px 0 0;
-}
-
-.cards .card h3{
+.contact h3{
     text-align: center;
     color: #5c73e8;
-
 }
 
-.cards .card p{
-    padding: 0 10px;
-    font-weight: 600;
-    color: rgb(131, 181, 81);
-}
-
-.cards .card .tecno{
-    padding: 0 10px;
-}
-
-.cards .card .tecno img {
-    filter: invert(44%) sepia(10%) saturate(6484%) hue-rotate(205deg) brightness(97%) contrast(87%);
-}
-
-.cards .card .github{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cards .card .github img{
+.img{
     filter: invert(44%) sepia(10%) saturate(6484%) hue-rotate(205deg) brightness(97%) contrast(87%);
 }

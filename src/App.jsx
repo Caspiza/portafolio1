@@ -5,6 +5,7 @@ import Inicio from './Inicio/Inicio'
 import Proyectos from './Proyectos/Proyectos'
 import SobreMi from './SobreMi/SobreMi'
 import Menu from './Menu/Menu'
+import Contacto from './Contacto/Contacto'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
         <Route path='/Portafolio'element={<Inicio/>}/>
         <Route path='/Portafolio/sobremi'element={<SobreMi/>}/>
         <Route path='/Portafolio/proyectos'element={<Proyectos/>}/>
-        
+        <Route path='/Portafolio/contacto'element={<Contacto/>}/>
 
       </Routes>
 

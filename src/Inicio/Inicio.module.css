@@ -9,7 +9,13 @@
     padding-bottom: 20vh;
 }
 
-h1, h2{
+h1{
+    background: linear-gradient(270deg, rgb(131, 181, 81), #132db3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tittle{    
     background: linear-gradient(270deg, rgb(131, 181, 81), #132db3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
